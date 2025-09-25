@@ -1,0 +1,120 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Fundo e container */
+body {
+    background: linear-gradient(135deg, #4facfe, #00f2fe);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.container {
+    background: #fff;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    max-width: 700px;
+    width: 100%;
+    text-align: center;
+}
+
+/* Cabeçalhos */
+h1, h2, h3 {
+    margin: 15px 0;
+}
+
+/* Texto */
+p {
+    margin-bottom: 10px;
+}
+
+/* Imagem do ebook */
+.capa {
+    width: 100%;
+    max-width: 250px;
+    margin: 15px 0;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+.capa:hover {
+    transform: scale(1.05) rotate(3deg);
+}
+
+/* Botões */
+.botao {
+    display: inline-block;
+    background: #4facfe;
+    color: #fff;
+    padding: 12px 20px;
+    margin: 15px 0;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+    cursor: pointer;
+}
+.botao:hover {
+    background: #00c3ff;
+    transform: scale(1.05);
+}
+
+/* Formulário */
+form {
+    text-align: left;
+    margin: 20px 0;
+}
+form label {
+    display: block;
+    margin: 8px 0 4px;
+    font-weight: bold;
+}
+form input, form select, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+/* Vídeo */
+.video {
+    margin: 20px 0;
+}
+
+/* Listas */
+ul {
+    text-align: left;
+    margin: 15px 0;
+    padding-left: 20px;
+}
+
+/* Seções diferenciadas */
+.depoimentos, .bonus, .por-que {
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    margin-top: 30px;
+    padding-top: 15px;
+    border-top: 1px solid #ccc;
+    font-size: 14px;
+}
+footer a {
+    text-decoration: none;
+    color: #4facfe;
+    margin: 0 5px;
+}
+footer a:hover {
+    text-decoration: underline;
+}

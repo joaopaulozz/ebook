@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comprar Ebook</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="dinheiro.png">
+</head>
+<body>
+    <div class="container">
+        <h1>Finalize sua Compra</h1>
+        <p>Preencha seus dados para receber o ebook:</p>
+
+        <form>
+            <label>Nome:</label>
+            <input type="text" placeholder="Digite seu nome" required>
+
+            <label>E-mail:</label>
+            <input type="email" placeholder="Digite seu e-mail" required>
+
+            <label>Celular:</label>
+            <input type="cel" placeholder="Digite seu WhatsApp" required>
+
+
+            <button type="submit" class="botao">Finalizar Compra</button>
+        </form>
+
+        <h2>🎉 Obrigado pela compra!</h2>
+        <p>Agora você já pode baixar seu ebook:</p>
+        <a href="Como Ganhar Dinheiro com A Internet.pdf" download class="botao">📥 Baixar Ebook</a>
+
+        <br><br>
+        <a href="index.html">⬅ Voltar à página inicial</a>
+    </div>
+
+    <!-- Plugin VLibras -->
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+</html>
